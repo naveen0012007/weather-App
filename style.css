@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 203, 253, 0.87718837535014) 100%
+  );
+  background-image: url("./assets/img/blue-sky-clouds-natural-background-92316401.jpg");
+  background-size: cover;
+  color: white;
+}
+.container {
+  width: 40%;
+  margin: 0 auto;
+  border: 2px solid gold;
+  background-color: rgba(0, 0, 0, 0.685);
+  padding: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.fa-search {
+  width: 40%;
+  color: black;
+}
+.searchInput {
+  padding: 10px;
+  width: 90%;
+  border-radius: 18px;
+}
+.SearchButton {
+  /* border: 2px solid black; */
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: azure;
+}
+.coludImg {
+  width: 70px;
+  height: 70px;
+}
+.coludImg {
+  width: 100%;
+}
+.searchInputInvalid {
+  color: rgb(241, 0, 0);
+  display: inline-block;
+  position: absolute;
+  top: 69px;
+  left: 40px;
+  font-size: 14px;
+}
+.hidden {
+  display: none;
+}
